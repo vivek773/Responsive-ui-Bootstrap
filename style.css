@@ -133,6 +133,12 @@ html {
     border-radius: 0%;
 }
 .send-button{
+    border: 0px;
     border-radius: 0%;
+}
+.send-button:hover{
+    background-color:rgb(203, 203, 203);
+    color:black;
+
 }
 /* Contact End */
