@@ -12,20 +12,27 @@ html {
 /* navbar start */
 
 .navbar-head {
-    padding: 8px 16px!important;
     display: flex;
     justify-content: space-between;
     flex: 1;
+    align-items: center;
+}
+.navbar-brand{
+    padding:10px;
+    letter-spacing: 5px;
+    color: black !important;
+    font-size: 15px;
+}
+.navbar-brand:hover{
+    background-color:rgb(194, 192, 192)
+}
+.nav-link{
+    letter-spacing: 4px;  
 }
 .navbar{
     position: fixed;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.5rem;
+    padding: 7px 10px;
     background-color: white;
-    padding-bottom: 0.5rem;
     z-index: 1;
     left: 0;
     top: 0px;
@@ -34,9 +41,16 @@ html {
 .nav-left {
     width: 100px;
 }
+.shadow-nav{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%);
+
+}
 .nav-right {
     flex: 1;
     /* width: 100%; */
+}
+.menu-item:hover{
+    background-color: rgb(226, 226, 226);
 }
 
 /* navbar end */
@@ -93,3 +107,32 @@ html {
 }
 
 /* Project start */
+
+/* About start */
+
+.card-img-top{
+    filter: grayscale(0.8);
+}
+.contact-button{
+    border-radius: 0%;
+    background-color:rgb(237, 237, 237);
+    color:black;
+    border:0px;
+}
+.contact-button:hover{
+    background-color:rgb(198, 198, 198);
+}
+.horizontal-line{
+    background-color:rgb(211, 209, 209)
+}
+/* About End */
+
+
+/* Contact start */
+.form-control{
+    border-radius: 0%;
+}
+.send-button{
+    border-radius: 0%;
+}
+/* Contact End */
